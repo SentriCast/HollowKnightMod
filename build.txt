@@ -1,0 +1,3 @@
+author = Alphi 
+version = 0.1
+displayName = The Hollow Knight Mod
