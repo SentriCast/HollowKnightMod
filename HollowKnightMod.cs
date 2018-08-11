@@ -12,15 +12,18 @@ namespace HollowKnightMod
 
         public HollowKnightMod()
 		{
+
 		}
+
         public override void Load()
         {
-        OriginalLifeCrystalTexture = Main.itemTexture[29];
-        Main.itemTexture[29] = this.GetTexture("Textures/Mask_Shard");
+            OriginalLifeCrystalTexture = Main.itemTexture[29];
+            Main.itemTexture[29] = this.GetTexture("Textures/Mask_Shard");
         }
+
         public override void Unload()
         {
-        Main.itemTexture[29] = OriginalLifeCrystalTexture;
+            Main.itemTexture[29] = OriginalLifeCrystalTexture;
         }
     }
 }
