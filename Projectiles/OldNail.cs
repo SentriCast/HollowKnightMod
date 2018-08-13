@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Terraria;
 using Terraria.ModLoader;
-using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework; 
 using Terraria.ID;
 
 namespace HollowKnightMod.Projectiles
@@ -15,7 +15,7 @@ namespace HollowKnightMod.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Old");
+            DisplayName.SetDefault("Oldf");
             Main.projFrames[projectile.type] = 8;
         }
 

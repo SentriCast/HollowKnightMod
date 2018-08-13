@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Items\OldNail.png" />
+    <Content Include="Items\Pale_ore.png" />
+    <Content Include="Projectiles\OldNail.png" />
     <Content Include="Textures\Mask_Shard.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

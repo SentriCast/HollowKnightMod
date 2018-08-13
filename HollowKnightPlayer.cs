@@ -14,7 +14,7 @@ namespace HollowKnightMod
     {
         public override void SetupStartInventory(IList<Item> items)
         {
-            player.inventory[1].SetDefaults(mod.ItemType("OldNail"));
+            player.inventory[0].SetDefaults(mod.ItemType("OldNail"));
         }
     }
 }
